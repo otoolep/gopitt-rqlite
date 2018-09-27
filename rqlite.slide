@@ -2,25 +2,24 @@ rqlite
 Replicating SQLite using Raft consensus
 
 Philip O'Toole
-GoSF April 20th 2016
+XXX October 8th 2018
 
 http://www.philipotoole.com/
-@general_order24
 
 * About me
 
-- Director of Data Platform Engineering at Percolate.
-- Previously a full-time core developer with InfluxDB.
-- Led the team that built Loggly's 2nd generation indexing and search platform.
-- Big fan of Go, databases, and distributed systems.
+- Engineering Manager at Google Pittsburgh.
+- Recent transplant from the Bay Area.
+- Previously a full-time core developer with InfluxDB, an open-source time-series database.
+- Led various other software teams building search engines and distributed systems.
 
 * About rqlite
 
 rqlite is a distributed system, which fully replicates a SQLite database using the Raft consensus protocol.
 
-You can find the source at [[https://github.com/otoolep/rqlite]].
+You can find the source at [[https://github.com/rqlite/rqlite]].
 
-The current release is v2.2.1.
+The current release is v4.3.0
 
 * Why?
 
@@ -106,7 +105,7 @@ A reference use of Hashicorp's Raft implementation is available at [[https://git
 
 * "Plan to throw one away. You will, anyhow."
 
-rqlite v1.0 suffered from many shortcomings.
+Early versions of rqlite suffered from many shortcomings.
 
 - Poor API.
 - Used the generic Go SQL interfaces.
